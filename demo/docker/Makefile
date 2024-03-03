@@ -1,6 +1,6 @@
 
 # Variables
-IMAGE_NAME := ghcr.io/your-github-username-here/hello:latest
+IMAGE_NAME := ghcr.io/Jc-005/hello:latest
 CONTAINER_NAME := hello
 
 # Build the Docker image
@@ -12,7 +12,7 @@ publish:
 	docker push $(IMAGE_NAME)
 
 login:
-	docker login ghcr.io -u your-github-username-here
+	docker login ghcr.io -u Jc-005
 
 # Run the Docker container
 run:
